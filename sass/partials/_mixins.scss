@@ -1,0 +1,22 @@
+/* 
+Often, we require to center the text with respect to the given content, 
+so flexCenter() mixin contains the properties of flex, that helps us
+to center the content on our website. Centering of items, while being 
+responsive is often required in various projects, hence this mixin would
+help to follow DRY principle
+*/
+
+@mixin flexCenter() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin siteTheme() {
+  background-color: $primary_color;
+  color: $secondary_color;
+}
+
+@mixin roundImage() {
+  border-radius: 50%;
+}
